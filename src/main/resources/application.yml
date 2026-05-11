@@ -1,0 +1,13 @@
+server:
+  port: 5050
+  servlet:
+    context-path: /codeSandbox
+
+spring:
+  application:
+    name: codeSandbox
+
+logging:
+  level:
+    root: INFO
+    '[com.joj]': DEBUG
